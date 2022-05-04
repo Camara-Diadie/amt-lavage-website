@@ -7,6 +7,7 @@ html body {
   margin: 0;
   padding: 0;
   color: white;
+  width: 1440px;
 }
 
 html body header {
@@ -157,10 +158,6 @@ html body header #presentation-texte .texte-info h1 {
   color: #a17d1f;
 }
 
-html body header #presentation-texte .texte-info p {
-  color: white;
-}
-
 html body header #presentation-texte .texte-info :nth-child(2) {
   width: 445px;
   height: 34px;
@@ -191,29 +188,117 @@ html body header #presentation-texte div.contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 445px;
   margin-top: 34px;
+}
+
+html body header #presentation-texte div.contact h3 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+html body header #presentation-texte div.contact .contact-direct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body header #presentation-texte div.contact a {
+  width: 96px;
+}
+
+html body main#contenu-principal {
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(189, 31, 31, 0);
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 120px;
+}
+
+html body main#contenu-principal #categorie-voiture {
+  width: 1110px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 165px;
+}
+
+html body main#contenu-principal #categorie-voiture h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+  text-decoration: underline;
+  text-underline-offset: 25px;
+  text-decoration-thickness: 3px;
+  -webkit-text-decoration-color: #a17d1f;
+          text-decoration-color: #a17d1f;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+}
+
+html body main#contenu-principal #categorie-voiture p.liste-categorie {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+  line-height: 32px;
+  letter-spacing: 1.7px;
+}
+
+html body main#contenu-principal #categorie-voiture p.liste-categorie span {
+  color: #a17d1f;
+}
+
+html body main#contenu-principal #categorie-voiture #info-categorie {
+  width: 1200px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-html body header #presentation-texte div.contact a {
-  width: 68px;
-  height: 68px;
-  opacity: 0, 15;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #D0D6F9;
+html body main#contenu-principal #categorie-voiture #info-categorie .detail-categorie {
+  width: 750px;
+  height: 90px;
+}
+
+html body main#contenu-principal #categorie-voiture #info-categorie .detail-categorie p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+html body main#contenu-principal #categorie-voiture #info-categorie .detail-categorie p:first-letter {
+  color: #a17d1f;
 }
 /*# sourceMappingURL=style.css.map */

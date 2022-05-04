@@ -1,202 +1,3 @@
-// @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
-// $barlowCondensed :'Barlow Condensed',
-// sans-serif;
-// $barlow:'Barlow',
-// sans-serif;
-// $bellefair :'Bellefair',
-// serif;
-// $jauneTaupe:#a17d1f;
-
-// html {
-//     background-color: black;
-
-//     body {
-//         margin: 0;
-//         padding: 0;
-//         color: white;
-
-//         header {
-//             width: 1440px;
-//             height: 959px;
-//             background-color: black;
-//             display: flex;
-//             flex-direction: column;
-//             // justify-content: space-between;
-//             margin-left: 50px;
-//             margin-bottom: 251px;
-//             // background: no-repeat  url(/asset/home/cleaning-1837328_1920.jpg);
-
-//             nav {
-//                 display: flex;
-//                 width: 1440px;
-//                 height: 96px;
-//                 justify-content: space-between;
-//                 align-items: center;
-//                 text-align: center;
-//                 padding-top: 40px;
-
-//                 img {
-//                     width: 200px;
-//                     height: auto;
-
-//                 }
-
-//                 .ligne {
-//                     width: 600px;
-//                     height: 1px;
-//                     background: linear-gradient(to right, white, $jauneTaupe);
-//                     mix-blend-mode: normal;
-//                     opacity: 0.55;
-
-//                 }
-
-//                 ul {
-//                     display: flex;
-//                     align-items: center;
-//                     justify-content: space-around;
-//                     width: 570px;
-//                     height: 96px;
-//                     background: rgba(255, 255, 255, 0.065);
-//                     backdrop-filter: blur(61.5485px);
-//                     color: rgba(255, 255, 255, 0.04);
-//                     // opacity: 1.15;
-
-//                     li {
-//                         list-style: none;
-//                         font-family: $barlowCondensed;
-//                         text-decoration: none;
-
-//                         &:hover {
-//                             text-decoration: underline;
-//                             text-underline-offset: 35px;
-//                             text-decoration-thickness: 3px;
-//                         }
-
-
-//                         a {
-//                             color: white;
-//                             text-decoration: none;
-//                             text-transform: uppercase;
-//                             text-decoration-color: #a17d1f;
-
-//                             span {
-//                                 font-style: normal;
-//                                 font-weight: 700;
-//                                 font-size: 16px;
-//                                 line-height: 19px;
-//                                 letter-spacing: 2.7px;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-
-//             #presentation-texte {
-//                 width: 1100px;
-//                 height: 382px;
-//                 margin-left: 165px;
-//                 display: flex;
-//                 justify-content: center;
-//                 align-items: center;
-//                 margin-top: 150px;
-
-//                 div.img {
-
-//                     width: 488px;
-//                     height: 562px;
-//                     background: no-repeat center/ cover url(/asset/home/cleaning-1837328_1920.jpg);
-//                     // background: no-repeat url("../../media/examples/lizard.png");
-//                     border-radius: 500px;
-
-//                 }
-
-//                 .texte-info {
-//                     display: flex;
-//                     flex-direction: column;
-//                     // text-align: center;
-//                     justify-content: center;
-//                     align-items: center;
-//                     margin-right: 121px;
-
-//                     h1 {
-//                         width: 445px;
-//                         height: 172px;
-//                         font-weight: 400;
-//                         font-size: 70px;
-//                         line-height: 172px;
-//                         text-transform: uppercase;
-//                         margin-bottom: 0px;
-//                         margin-top: 0;
-
-//                         font-family: $bellefair;
-//                         color: $jauneTaupe;
-//                         // color: linear-gradient(to right, white, $jauneTaupe);
-
-//                     }
-
-//                     p {
-//                         color: white;
-
-
-//                     }
-
-//                     :nth-child(2) {
-//                         width: 420px;
-//                         height: 34px;
-//                         font-weight: 400;
-//                         font-size: 24px;
-//                         line-height: 34px;
-//                         letter-spacing: 2.725px;
-//                         color: #D0D6F9;
-//                         margin-top: 0;
-//                         margin-bottom: 0px;
-//                         font-family: $barlowCondensed;
-//                     }
-
-//                     :nth-child(3) {
-//                         width: 440px;
-//                         height: auto;
-//                         font-size: normal;
-//                         font-weight: 400;
-//                         font-size: 18px;
-//                         line-height: 32px;
-//                         text-align: justify;
-//                         font-family: $barlow;
-//                         margin-bottom: 0;
-
-//                     }
-
-//                     .contact {
-
-//                         display: flex;
-//                         justify-content: space-around;
-//                         width: 445px;
-//                         margin-top: 34px;
-
-//                         a {
-//                             width: 68px;
-//                             height: 68px;
-//                             opacity: 0, 15;
-//                             border-radius: 50%;
-//                             display: flex;
-//                             justify-content: center;
-//                             align-items: center;
-//                         }
-
-
-//                     }
-
-
-//                 }
-
-
-//             }
-
-//         }
-//     }
-// }
-
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
 $barlowCondensed :'Barlow Condensed',
 sans-serif;
@@ -213,6 +14,7 @@ html {
         margin: 0;
         padding: 0;
         color: white;
+        width: 1440px;
 
         header {
             width: 1440px;
@@ -221,9 +23,6 @@ html {
             display: flex;
             flex-direction: column;
             background-image: url(/asset/home/cleaning-1837328_1920.jpg);
-
-
-
 
             nav {
                 display: flex;
@@ -237,8 +36,6 @@ html {
                 img {
                     width: 250px;
                     height: auto;
-
-
                 }
 
                 .ligne {
@@ -247,7 +44,6 @@ html {
                     background: linear-gradient(to right, white, $jauneTaupe);
                     mix-blend-mode: normal;
                     opacity: 0.55;
-
                 }
 
                 ul {
@@ -259,7 +55,6 @@ html {
                     background: rgba(255, 255, 255, 0.065);
                     backdrop-filter: blur(61.5485px);
                     color: rgba(255, 255, 255, 0.04);
-                    // opacity: 1.15;
 
                     li {
                         list-style: none;
@@ -271,7 +66,6 @@ html {
                             text-underline-offset: 35px;
                             text-decoration-thickness: 3px;
                         }
-
 
                         a {
                             color: white;
@@ -302,25 +96,18 @@ html {
                 background-color: rgba(0, 0, 0, 0.507);
                 background: transparent black;
                 border-radius: 20px;
-                // -webkit-box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.767);
-                // -moz-box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.799);
                 box-shadow: 20px 29px 81px 0px rgba(0, 0, 0, 0.792);
 
                 div.img {
-
                     width: 488px;
                     height: 562px;
-                    // background: no-repeat center/ cover url(/asset/home/image0.png);
-                    // background: no-repeat url("../../media/examples/lizard.png");
                     border-radius: 500px;
                     border-style: none;
-
                 }
 
                 .texte-info {
                     display: flex;
                     flex-direction: column;
-                    // text-align: center;
                     justify-content: center;
                     align-items: center;
                     margin-right: 121px;
@@ -337,14 +124,6 @@ html {
                         text-align: center;
                         font-family: $bellefair;
                         color: $jauneTaupe;
-                        // color: linear-gradient(to right, white, $jauneTaupe);
-
-                    }
-
-                    p {
-                        color: white;
-
-
                     }
 
                     :nth-child(2) {
@@ -371,42 +150,100 @@ html {
                         text-align: justify;
                         font-family: $barlow;
                         margin-bottom: 0;
-
                     }
-
-
-
-
                 }
 
                 div.contact {
-
-
                     display: flex;
-                    justify-content: space-around;
+                    flex-direction: column;
+                    align-items: center;
                     width: 445px;
                     margin-top: 34px;
-                    align-items: center;
 
-                    a {
-                        width: 68px;
-                        height: 68px;
-                        opacity: 0, 15;
-                        border-radius: 50%;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        color:#D0D6F9;
-
+                    h3 {
+                        font-weight: 600;
+                        font-size: 28px;
                     }
 
+                    .contact-direct {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    a {
+                        width: 96px;
+                    }
+                }
+            }
+        }
+
+        main#contenu-principal {
+
+            width: 1440px;
+            display: flex;
+            background-color: rgba(189, 31, 31, 0);
+            display: flex;
+            flex-direction: column;
+            margin-top: 120px;
+
+            #categorie-voiture {
+                width: 1110px;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 165px;
 
 
+                h3 {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    font-family: $barlow;
+                    text-decoration: underline;
+                    text-underline-offset: 25px;
+                    text-decoration-thickness: 3px;
+                    text-decoration-color: $jauneTaupe;
+                    line-height: 19px;
+                    letter-spacing: 2.7px;
+                }
+
+                p.liste-categorie {
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    font-family: $barlow;
+                    line-height: 32px;
+                    letter-spacing: 1.7px;
+                    span {
+                        color: $jauneTaupe;
+                    }
+                }
+
+                #info-categorie {
+                    width: 1200px;
+                    height: 350px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .detail-categorie {
+                        width: 750px;
+                        height: 90px;
+
+                        p {
+                            margin: 0;
+                            font-size: 18px;
+                            line-height: 18px;
+
+                            &:first-letter{
+                                color: $jauneTaupe;
+                            }
+                        }
+
+                    }
                 }
 
 
             }
-
         }
     }
 }
