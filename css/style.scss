@@ -197,6 +197,7 @@ html {
                 // margin-left: 165px;
 
 
+
                 h3 {
                     font-size: 30px;
                     text-transform: uppercase;
@@ -250,11 +251,21 @@ html {
                 align-items: center;
                 flex-direction: column;
                 width: 1440px;
+                height: 1250px;
+                background: center /cover no-repeat url(/asset/home/towfiqu-barbhuiya-5m5418Ng6t8-unsplash-ConvertImage.jpg);
 
 
-                // h3 {
-                //     // color: purple;
-                // }
+                h3 {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    font-family: $barlow;
+                    text-decoration: underline;
+                    text-underline-offset: 25px;
+                    text-decoration-thickness: 3px;
+                    text-decoration-color: $jauneTaupe;
+                    line-height: 19px;
+                    letter-spacing: 2.7px;
+                }
 
                 #prix-prestation-categorie {
                     width: 1100px;
@@ -272,8 +283,11 @@ html {
                         margin-top: 100px;
                         align-items: center;
                         flex-direction: column;
-                        border-radius: none;
                         font-family: $bellefair;
+                        background-color: rgba(0, 0, 0, 0.727);
+                        background: transparent black;
+                        border-radius: 20px;
+                        box-shadow: 20px 29px 81px 0px rgba(0, 0, 0, 0.792);
 
                         .teste-drive {
                             width: 450px;
@@ -316,13 +330,64 @@ html {
                         }
 
                     }
-                    .ligne-separ{
+
+                    .ligne-separ {
                         width: 1100px;
                         height: 2px;
                         background-color: #a17d1f;
                         margin: 0;
                         text-align: center;
                     }
+                }
+            }
+
+            #prestation-carte {
+                display: flex;
+                width: 1440px;
+                height: 700px;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+
+                h4 {
+
+                    width: 1400px;
+                    text-align: center;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    font-family: $barlow;
+                    text-decoration: underline;
+                    text-underline-offset: 15px;
+                    text-decoration-thickness: 3px;
+                    text-decoration-color: $jauneTaupe;
+                    line-height: 19px;
+                    letter-spacing: 2.7px;
+                }
+
+                ul {
+                    list-style: none;
+                    text-align:center;
+li{
+font-size: 16px;
+font-family: $barlow;
+    span{
+        color: $jauneTaupe;
+        font-size: 16px;
+    }
+    &.titre-presta-cart {
+        font-style: $barlow;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+        text-align: center;
+        span{
+            color: $jauneTaupe;
+        }
+    }
+}
+
                 }
             }
         }
