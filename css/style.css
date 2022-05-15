@@ -446,7 +446,7 @@ html body main#contenu-principal #prestation-carte ul {
 }
 
 html body main#contenu-principal #prestation-carte ul li {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Barlow", sans-serif;
 }
 
@@ -459,13 +459,107 @@ html body main#contenu-principal #prestation-carte ul li.titre-presta-cart {
   font-style: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  letter-spacing: 0.7px;
+  font-size: 16px;
+  letter-spacing: 0.3px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 1.5px;
 }
 
 html body main#contenu-principal #prestation-carte ul li.titre-presta-cart span {
   color: #a17d1f;
+}
+
+html body main#contenu-principal #photo {
+  width: 1440px;
+  height: 747px;
+  margin: 0;
+}
+
+html body main#contenu-principal #photo .photo-temoin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+html body main#contenu-principal #photo .photo-temoin img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+html body main#contenu-principal footer {
+  width: 1440px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #a17c1f1b;
+}
+
+html body main#contenu-principal footer img {
+  width: 350px;
+  height: auto;
+}
+
+html body main#contenu-principal footer .footer-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 570px;
+  height: 96px;
+  background: rgba(255, 255, 255, 0.065);
+  -webkit-backdrop-filter: blur(61.5485px);
+          backdrop-filter: blur(61.5485px);
+  color: rgba(255, 255, 255, 0.04);
+}
+
+html body main#contenu-principal footer .footer-menu ul li {
+  list-style: none;
+  font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none;
+}
+
+html body main#contenu-principal footer .footer-menu ul li:hover {
+  text-decoration: underline;
+  text-underline-offset: 35px;
+  text-decoration-thickness: 3px;
+}
+
+html body main#contenu-principal footer .footer-menu ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-text-decoration-color: #a17d1f;
+          text-decoration-color: #a17d1f;
+}
+
+html body main#contenu-principal footer .footer-menu ul li a span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+}
+
+html body main#contenu-principal footer .footer-contact-direct a img {
+  width: 46px;
 }
 /*# sourceMappingURL=style.css.map */

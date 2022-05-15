@@ -7,6 +7,46 @@ $bellefair :'Bellefair',
 serif;
 $jauneTaupe:#a17d1f;
 
+@mixin menu {
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 570px;
+        height: 96px;
+        background: rgba(255, 255, 255, 0.065);
+        backdrop-filter: blur(61.5485px);
+        color: rgba(255, 255, 255, 0.04);
+
+        li {
+            list-style: none;
+            font-family: $barlowCondensed;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+                text-underline-offset: 35px;
+                text-decoration-thickness: 3px;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                text-decoration-color: $jauneTaupe;
+
+                span {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: 2.7px;
+                }
+            }
+        }
+    }
+}
+
 html {
     background-color: black;
 
@@ -366,27 +406,85 @@ html {
 
                 ul {
                     list-style: none;
-                    text-align:center;
-li{
-font-size: 16px;
-font-family: $barlow;
-    span{
-        color: $jauneTaupe;
-        font-size: 16px;
-    }
-    &.titre-presta-cart {
-        font-style: $barlow;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        letter-spacing: 0.7px;
-        text-transform: uppercase;
-        text-align: center;
-        span{
-            color: $jauneTaupe;
-        }
-    }
-}
+                    text-align: center;
+
+                    li {
+                        font-size: 14px;
+                        font-family: $barlow;
+
+                        span {
+                            color: $jauneTaupe;
+                            font-size: 16px;
+                        }
+
+                        &.titre-presta-cart {
+                            font-style: $barlow;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            letter-spacing: 0.3px;
+                            text-transform: uppercase;
+                            text-align: center;
+                            margin-bottom: 1.5px;
+
+                            span {
+                                color: $jauneTaupe;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            #photo {
+                width: 1440px;
+                height: 747px;
+                margin: 0;
+
+
+                // h4 {}
+
+                .photo-temoin {
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+
+                    img {
+                        width: 300px;
+                        height: 300px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            footer {
+                width: 1440px;
+                height: 350px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background-color:#a17c1f1b;
+
+                img {
+                    width: 350px;
+                    height: auto;
+                }
+
+                .footer-menu {
+                    
+                        @include menu;
+                    
+
+                }
+
+                .footer-contact-direct {
+                    a img {
+                        width: 46px;
+
+                    }
+
 
                 }
             }
