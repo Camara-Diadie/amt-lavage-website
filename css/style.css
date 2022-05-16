@@ -48,8 +48,8 @@ html body header nav img {
 html body header nav .ligne {
   width: 600px;
   height: 1px;
-  background: -webkit-gradient(linear, left top, right top, from(white), to(#a17d1f));
-  background: linear-gradient(to right, white, #a17d1f);
+  background: -webkit-gradient(linear, left top, right top, from(white), to(#b08715));
+  background: linear-gradient(to right, white, #b08715);
   mix-blend-mode: normal;
   opacity: 0.55;
 }
@@ -87,8 +87,8 @@ html body header nav ul li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-text-decoration-color: #a17d1f;
-          text-decoration-color: #a17d1f;
+  -webkit-text-decoration-color: #b08715;
+          text-decoration-color: #b08715;
 }
 
 html body header nav ul li a span {
@@ -155,7 +155,7 @@ html body header #presentation-texte .texte-info h1 {
   margin-top: 0;
   text-align: center;
   font-family: "Bellefair", serif;
-  color: #a17d1f;
+  color: #b08715;
 }
 
 html body header #presentation-texte .texte-info :nth-child(2) {
@@ -200,8 +200,10 @@ html body header #presentation-texte div.contact {
 }
 
 html body header #presentation-texte div.contact h3 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 28px;
+  color: #b08715;
+  font-family: "Barlow", sans-serif;
 }
 
 html body header #presentation-texte div.contact .contact-direct {
@@ -254,8 +256,8 @@ html body main#contenu-principal #categorie-voiture h3 {
   text-decoration: underline;
   text-underline-offset: 25px;
   text-decoration-thickness: 3px;
-  -webkit-text-decoration-color: #a17d1f;
-          text-decoration-color: #a17d1f;
+  -webkit-text-decoration-color: #b08715;
+          text-decoration-color: #b08715;
   line-height: 19px;
   letter-spacing: 2.7px;
 }
@@ -269,7 +271,7 @@ html body main#contenu-principal #categorie-voiture p.liste-categorie {
 }
 
 html body main#contenu-principal #categorie-voiture p.liste-categorie span {
-  color: #a17d1f;
+  color: #b08715;
 }
 
 html body main#contenu-principal #categorie-voiture #info-categorie {
@@ -299,7 +301,7 @@ html body main#contenu-principal #categorie-voiture #info-categorie .detail-cate
 }
 
 html body main#contenu-principal #categorie-voiture #info-categorie .detail-categorie p:first-letter {
-  color: #a17d1f;
+  color: #b08715;
 }
 
 html body main#contenu-principal #categorie-service-prestation {
@@ -325,8 +327,8 @@ html body main#contenu-principal #categorie-service-prestation h3 {
   text-decoration: underline;
   text-underline-offset: 25px;
   text-decoration-thickness: 3px;
-  -webkit-text-decoration-color: #a17d1f;
-          text-decoration-color: #a17d1f;
+  -webkit-text-decoration-color: #b08715;
+          text-decoration-color: #b08715;
   line-height: 19px;
   letter-spacing: 2.7px;
 }
@@ -377,7 +379,7 @@ html body main#contenu-principal #categorie-service-prestation #prix-prestation-
 }
 
 html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un h4 {
-  color: #a17d1f;
+  color: #b08715;
   font-size: 28px;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
@@ -387,7 +389,7 @@ html body main#contenu-principal #categorie-service-prestation #prix-prestation-
 }
 
 html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un p span {
-  color: #a17d1f;
+  color: #b08715;
 }
 
 html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive img {
@@ -402,10 +404,14 @@ html body main#contenu-principal #categorie-service-prestation #prix-prestation-
   line-height: 19px;
 }
 
+html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation ul li span {
+  color: #b08715;
+}
+
 html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .ligne-separ {
   width: 1100px;
   height: 2px;
-  background-color: #a17d1f;
+  background-color: #b08715;
   margin: 0;
   text-align: center;
 }
@@ -425,17 +431,17 @@ html body main#contenu-principal #prestation-carte {
       flex-wrap: wrap;
 }
 
-html body main#contenu-principal #prestation-carte h4 {
+html body main#contenu-principal #prestation-carte h3 {
   width: 1400px;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   text-transform: uppercase;
   font-family: "Barlow", sans-serif;
   text-decoration: underline;
-  text-underline-offset: 15px;
+  text-underline-offset: 25px;
   text-decoration-thickness: 3px;
-  -webkit-text-decoration-color: #a17d1f;
-          text-decoration-color: #a17d1f;
+  -webkit-text-decoration-color: #b08715;
+          text-decoration-color: #b08715;
   line-height: 19px;
   letter-spacing: 2.7px;
 }
@@ -451,7 +457,7 @@ html body main#contenu-principal #prestation-carte ul li {
 }
 
 html body main#contenu-principal #prestation-carte ul li span {
-  color: #a17d1f;
+  color: #b08715;
   font-size: 16px;
 }
 
@@ -467,13 +473,27 @@ html body main#contenu-principal #prestation-carte ul li.titre-presta-cart {
 }
 
 html body main#contenu-principal #prestation-carte ul li.titre-presta-cart span {
-  color: #a17d1f;
+  color: #b08715;
 }
 
 html body main#contenu-principal #photo {
   width: 1440px;
-  height: 747px;
-  margin: 0;
+  height: 847px;
+}
+
+html body main#contenu-principal #photo h3 {
+  width: 1440px;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+  text-decoration: underline;
+  text-underline-offset: 25px;
+  text-decoration-thickness: 3px;
+  -webkit-text-decoration-color: #b08715;
+          text-decoration-color: #b08715;
+  line-height: 19px;
+  letter-spacing: 2.7px;
 }
 
 html body main#contenu-principal #photo .photo-temoin {
@@ -487,6 +507,7 @@ html body main#contenu-principal #photo .photo-temoin {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 100px;
 }
 
 html body main#contenu-principal #photo .photo-temoin img {
@@ -497,21 +518,31 @@ html body main#contenu-principal #photo .photo-temoin img {
 
 html body main#contenu-principal footer {
   width: 1440px;
-  height: 350px;
+  height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #a17c1f1b;
+  background-color: #030301;
+  border-top: #b08715 1px solid;
+  text-align: center;
 }
 
 html body main#contenu-principal footer img {
-  width: 350px;
+  width: 250px;
   height: auto;
+}
+
+html body main#contenu-principal footer .footer-menu {
+  width: 570px;
 }
 
 html body main#contenu-principal footer .footer-menu ul {
@@ -547,8 +578,8 @@ html body main#contenu-principal footer .footer-menu ul li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-text-decoration-color: #a17d1f;
-          text-decoration-color: #a17d1f;
+  -webkit-text-decoration-color: #b08715;
+          text-decoration-color: #b08715;
 }
 
 html body main#contenu-principal footer .footer-menu ul li a span {
@@ -559,7 +590,17 @@ html body main#contenu-principal footer .footer-menu ul li a span {
   letter-spacing: 2.7px;
 }
 
-html body main#contenu-principal footer .footer-contact-direct a img {
+html body main#contenu-principal footer .footer-menu .footer-contact-direct {
+  margin-top: 20px;
+  width: 620px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+html body main#contenu-principal footer .footer-menu .footer-contact-direct a img {
   width: 46px;
 }
 /*# sourceMappingURL=style.css.map */

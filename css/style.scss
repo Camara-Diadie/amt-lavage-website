@@ -5,7 +5,7 @@ $barlow:'Barlow',
 sans-serif;
 $bellefair :'Bellefair',
 serif;
-$jauneTaupe:#a17d1f;
+$jauneTaupe:#b08715;
 
 @mixin menu {
     ul {
@@ -45,6 +45,21 @@ $jauneTaupe:#a17d1f;
             }
         }
     }
+}
+
+@mixin h4 {
+    width: 1400px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: $barlow;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: $jauneTaupe;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+
 }
 
 html {
@@ -201,8 +216,11 @@ html {
                     margin-top: 34px;
 
                     h3 {
-                        font-weight: 600;
+                        font-weight: 700;
                         font-size: 28px;
+                        color: #b08715;
+                        font-family: $barlow;
+
                     }
 
                     .contact-direct {
@@ -338,7 +356,7 @@ html {
                                 margin-left: 50px;
 
                                 h4 {
-                                    color: #a17d1f;
+                                    color: #b08715;
                                     font-size: 28px;
                                     font-family: 'Oleo Script Swash Caps', cursive;
                                 }
@@ -366,6 +384,9 @@ html {
                                 list-style: (' - ');
                                 font-size: 16px;
                                 line-height: 19px;
+                                span{
+                                    color: #b08715;
+                                }
                             }
                         }
 
@@ -374,7 +395,7 @@ html {
                     .ligne-separ {
                         width: 1100px;
                         height: 2px;
-                        background-color: #a17d1f;
+                        background-color: #b08715;
                         margin: 0;
                         text-align: center;
                     }
@@ -389,19 +410,20 @@ html {
                 justify-content: space-around;
                 flex-wrap: wrap;
 
-                h4 {
+                h3 {
 
                     width: 1400px;
                     text-align: center;
-                    font-size: 20px;
+                    font-size: 30px;
                     text-transform: uppercase;
                     font-family: $barlow;
                     text-decoration: underline;
-                    text-underline-offset: 15px;
+                    text-underline-offset: 25px;
                     text-decoration-thickness: 3px;
                     text-decoration-color: $jauneTaupe;
                     line-height: 19px;
                     letter-spacing: 2.7px;
+
                 }
 
                 ul {
@@ -438,18 +460,33 @@ html {
 
             #photo {
                 width: 1440px;
-                height: 747px;
-                margin: 0;
+                height: 847px;
+                // display: flex;
+                // flex-wrap: wrap;
+                // justify-content: space-between;
 
 
-                // h4 {}
+                h3 {
+                    width: 1440px;
+                    text-align: center;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    font-family: $barlow;
+                    text-decoration: underline;
+                    text-underline-offset: 25px;
+                    text-decoration-thickness: 3px;
+                    text-decoration-color: $jauneTaupe;
+                    line-height: 19px;
+                    letter-spacing: 2.7px;
+                }
 
                 .photo-temoin {
-
+                    // background-color: red;
                     display: flex;
                     align-items: center;
                     justify-content: space-around;
                     flex-wrap: wrap;
+                    margin-top: 100px;
 
                     img {
                         width: 300px;
@@ -461,29 +498,37 @@ html {
 
             footer {
                 width: 1440px;
-                height: 350px;
+                height: 400px;
                 display: flex;
+                flex-direction: column;
                 align-items: center;
                 justify-content: space-around;
-                background-color:#a17c1f1b;
+                background-color: #030301;
+                border-top: #b08715 1px solid;
+                text-align: center;
 
                 img {
-                    width: 350px;
+                    width: 250px;
                     height: auto;
                 }
 
                 .footer-menu {
-                    
-                        @include menu;
-                    
+                    width: 570px;
 
-                }
+                    @include menu;
 
-                .footer-contact-direct {
-                    a img {
-                        width: 46px;
+                    .footer-contact-direct {
+                        margin-top: 20px;
+                        width:620px;
+                        display: flex;
+                        justify-content: space-around;
 
+                        a img {
+                            width: 46px;
+                        }
                     }
+
+
 
 
                 }
