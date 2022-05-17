@@ -10,7 +10,14 @@ html body {
   width: 1440px;
 }
 
-html body header {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html body {
+    min-width: 300px;
+    max-width: auto;
+  }
+}
+
+html header {
   width: 1440px;
   height: 959px;
   background-color: rgba(0, 0, 0, 0);
@@ -21,10 +28,26 @@ html body header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(/asset/home/cleaning-1837328_1920.jpg);
+  background-image: url(./asset/home/cleaning-1837328_1920.jpg);
 }
 
-html body header nav {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header {
+    min-width: 300px;
+    max-width: auto;
+    background-image: url(/asset/home/cleaning-1837328_1920copiecopie.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  html header {
+    width: 100%;
+  }
+}
+
+html header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,12 +63,31 @@ html body header nav {
   padding-top: 40px;
 }
 
-html body header nav img {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header nav {
+    max-width: 375px;
+    min-width: auto;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+html header nav img {
   width: 250px;
   height: auto;
 }
 
-html body header nav .ligne {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header nav img {
+    width: 150px;
+    background-image: none;
+  }
+}
+
+html header nav .ligne {
   width: 600px;
   height: 1px;
   background: -webkit-gradient(linear, left top, right top, from(white), to(#b08715));
@@ -54,7 +96,13 @@ html body header nav .ligne {
   opacity: 0.55;
 }
 
-html body header nav ul {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header nav .ligne {
+    width: 150px;
+  }
+}
+
+html header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,19 +119,40 @@ html body header nav ul {
   color: rgba(255, 255, 255, 0.04);
 }
 
-html body header nav ul li {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header nav ul {
+    width: 375px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0;
+  }
+}
+
+html header nav ul li {
   list-style: none;
   font-family: "Barlow Condensed", sans-serif;
   text-decoration: none;
 }
 
-html body header nav ul li:hover {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header nav ul li {
+    width: 100%;
+  }
+}
+
+html header nav ul li:hover {
   text-decoration: underline;
   text-underline-offset: 35px;
   text-decoration-thickness: 3px;
 }
 
-html body header nav ul li a {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header nav ul li:hover {
+    text-decoration: none;
+  }
+}
+
+html header nav ul li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -91,7 +160,13 @@ html body header nav ul li a {
           text-decoration-color: #b08715;
 }
 
-html body header nav ul li a span {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header nav ul li a:hover {
+    color: #b08715;
+  }
+}
+
+html header nav ul li a span {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -99,19 +174,13 @@ html body header nav ul li a span {
   letter-spacing: 2.7px;
 }
 
-html body header #presentation-texte {
+html header #presentation-texte {
   width: 1100px;
   height: 582px;
   margin-left: 165px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 150px;
   background-color: rgba(0, 0, 0, 0.433);
   background: transparent black;
@@ -120,14 +189,19 @@ html body header #presentation-texte {
           box-shadow: 20px 29px 81px 0px rgba(0, 0, 0, 0.792);
 }
 
-html body header #presentation-texte div.img {
-  width: 488px;
-  height: 562px;
-  border-radius: 500px;
-  border-style: none;
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header #presentation-texte {
+    width: 370px;
+    height: auto;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
-html body header #presentation-texte .texte-info {
+html header #presentation-texte .texte-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,7 +218,13 @@ html body header #presentation-texte .texte-info {
   margin-right: 121px;
 }
 
-html body header #presentation-texte .texte-info h1 {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header #presentation-texte .texte-info {
+    margin: 0;
+  }
+}
+
+html header #presentation-texte .texte-info h1 {
   width: 445px;
   height: 172px;
   font-weight: 400;
@@ -158,7 +238,16 @@ html body header #presentation-texte .texte-info h1 {
   color: #b08715;
 }
 
-html body header #presentation-texte .texte-info :nth-child(2) {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header #presentation-texte .texte-info h1 {
+    width: 350px;
+    font-size: 35px;
+    height: 100px;
+    line-height: 70px;
+  }
+}
+
+html header #presentation-texte .texte-info :nth-child(2) {
   width: 445px;
   height: 34px;
   font-weight: 400;
@@ -172,7 +261,16 @@ html body header #presentation-texte .texte-info :nth-child(2) {
   text-align: center;
 }
 
-html body header #presentation-texte .texte-info :nth-child(3) {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header #presentation-texte .texte-info :nth-child(2) {
+    width: 350px;
+    font-size: 20px;
+    height: 30px;
+    line-height: 0px;
+  }
+}
+
+html header #presentation-texte .texte-info :nth-child(3) {
   width: 440px;
   height: auto;
   font-size: normal;
@@ -184,7 +282,17 @@ html body header #presentation-texte .texte-info :nth-child(3) {
   margin-bottom: 0;
 }
 
-html body header #presentation-texte div.contact {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header #presentation-texte .texte-info :nth-child(3) {
+    width: 350px;
+    font-size: 20px;
+    height: auto;
+    line-height: 30px;
+    margin: 0;
+  }
+}
+
+html header #presentation-texte div.contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,14 +307,21 @@ html body header #presentation-texte div.contact {
   margin-top: 34px;
 }
 
-html body header #presentation-texte div.contact h3 {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header #presentation-texte div.contact {
+    width: 370px;
+    text-align: center;
+  }
+}
+
+html header #presentation-texte div.contact h3 {
   font-weight: 700;
   font-size: 28px;
   color: #b08715;
   font-family: "Barlow", sans-serif;
 }
 
-html body header #presentation-texte div.contact .contact-direct {
+html header #presentation-texte div.contact .contact-direct {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,15 +330,25 @@ html body header #presentation-texte div.contact .contact-direct {
           justify-content: space-between;
 }
 
-html body header #presentation-texte div.contact a {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html header #presentation-texte div.contact .contact-direct {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+html header #presentation-texte div.contact a {
   width: 96px;
 }
 
-html body main#contenu-principal {
+html main#contenu-principal {
   width: 1440px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -234,7 +359,14 @@ html body main#contenu-principal {
           align-items: center;
 }
 
-html body main#contenu-principal #categorie-voiture {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal {
+    width: 375px;
+    margin: 0;
+  }
+}
+
+html main#contenu-principal #categorie-voiture {
   width: 1110px;
   height: 500px;
   display: -webkit-box;
@@ -249,7 +381,14 @@ html body main#contenu-principal #categorie-voiture {
           align-items: center;
 }
 
-html body main#contenu-principal #categorie-voiture h3 {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-voiture {
+    width: 370px;
+    height: auto;
+  }
+}
+
+html main#contenu-principal #categorie-voiture h3 {
   font-size: 30px;
   text-transform: uppercase;
   font-family: "Barlow", sans-serif;
@@ -262,7 +401,21 @@ html body main#contenu-principal #categorie-voiture h3 {
   letter-spacing: 2.7px;
 }
 
-html body main#contenu-principal #categorie-voiture p.liste-categorie {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-voiture h3 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 30px;
+    text-align: center;
+    text-underline-offset: 3px;
+  }
+}
+
+html main#contenu-principal #categorie-voiture p.liste-categorie {
   font-size: 18px;
   text-transform: uppercase;
   font-family: "Barlow", sans-serif;
@@ -270,11 +423,17 @@ html body main#contenu-principal #categorie-voiture p.liste-categorie {
   letter-spacing: 1.7px;
 }
 
-html body main#contenu-principal #categorie-voiture p.liste-categorie span {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-voiture p.liste-categorie {
+    text-align: center;
+  }
+}
+
+html main#contenu-principal #categorie-voiture p.liste-categorie span {
   color: #b08715;
 }
 
-html body main#contenu-principal #categorie-voiture #info-categorie {
+html main#contenu-principal #categorie-voiture #info-categorie {
   width: 1200px;
   height: 350px;
   display: -webkit-box;
@@ -289,22 +448,46 @@ html body main#contenu-principal #categorie-voiture #info-categorie {
           align-items: center;
 }
 
-html body main#contenu-principal #categorie-voiture #info-categorie .detail-categorie {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-voiture #info-categorie {
+    width: 375px;
+    height: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+html main#contenu-principal #categorie-voiture #info-categorie .detail-categorie {
   width: 750px;
   height: 90px;
 }
 
-html body main#contenu-principal #categorie-voiture #info-categorie .detail-categorie p {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-voiture #info-categorie .detail-categorie {
+    text-align: center;
+    width: 375px;
+    height: 70px;
+  }
+}
+
+html main#contenu-principal #categorie-voiture #info-categorie .detail-categorie p {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
 }
 
-html body main#contenu-principal #categorie-voiture #info-categorie .detail-categorie p:first-letter {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-voiture #info-categorie .detail-categorie p {
+    line-height: 25px;
+    font-size: 16px;
+  }
+}
+
+html main#contenu-principal #categorie-voiture #info-categorie .detail-categorie p:first-letter {
   color: #b08715;
 }
 
-html body main#contenu-principal #categorie-service-prestation {
+html main#contenu-principal #categorie-service-prestation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,7 +503,14 @@ html body main#contenu-principal #categorie-service-prestation {
   background: center/cover no-repeat url(/asset/home/towfiqu-barbhuiya-5m5418Ng6t8-unsplash-ConvertImage.jpg);
 }
 
-html body main#contenu-principal #categorie-service-prestation h3 {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-service-prestation {
+    width: 375px;
+    height: auto;
+  }
+}
+
+html main#contenu-principal #categorie-service-prestation h3 {
   font-size: 30px;
   text-transform: uppercase;
   font-family: "Barlow", sans-serif;
@@ -333,7 +523,16 @@ html body main#contenu-principal #categorie-service-prestation h3 {
   letter-spacing: 2.7px;
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-service-prestation h3 {
+    width: 375px;
+    text-align: center;
+    line-height: 32px;
+    text-underline-offset: 5px;
+  }
+}
+
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie {
   width: 1100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,7 +543,14 @@ html body main#contenu-principal #categorie-service-prestation #prix-prestation-
       flex-wrap: wrap;
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie {
+    width: 375px;
+    height: auto;
+  }
+}
+
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation {
   margin-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -367,48 +573,76 @@ html body main#contenu-principal #categorie-service-prestation #prix-prestation-
           box-shadow: 20px 29px 81px 0px rgba(0, 0, 0, 0.792);
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation {
+    width: 350px;
+    margin-left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive {
   width: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive {
+    width: 375px;
+  }
+}
+
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un {
   margin-left: 50px;
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un h4 {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un {
+    margin: 20px;
+  }
+}
+
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un h4 {
   color: #b08715;
   font-size: 28px;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un p {
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un p {
   width: 130px;
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un p span {
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un p span {
   color: #b08715;
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive img {
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive img {
   width: 200px;
   margin-bottom: 0px;
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation ul li {
+@media all and (min-width: 300px) and (max-width: 375px) {
+  html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive img {
+    width: 150px;
+  }
+}
+
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation ul li {
   text-transform: uppercase;
   list-style: " - ";
   font-size: 16px;
   line-height: 19px;
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation ul li span {
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation ul li span {
   color: #b08715;
 }
 
-html body main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .ligne-separ {
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .ligne-separ {
   width: 1100px;
   height: 2px;
   background-color: #b08715;
@@ -416,7 +650,7 @@ html body main#contenu-principal #categorie-service-prestation #prix-prestation-
   text-align: center;
 }
 
-html body main#contenu-principal #prestation-carte {
+html main#contenu-principal #prestation-carte {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,7 +665,7 @@ html body main#contenu-principal #prestation-carte {
       flex-wrap: wrap;
 }
 
-html body main#contenu-principal #prestation-carte h3 {
+html main#contenu-principal #prestation-carte h3 {
   width: 1400px;
   text-align: center;
   font-size: 30px;
@@ -446,22 +680,22 @@ html body main#contenu-principal #prestation-carte h3 {
   letter-spacing: 2.7px;
 }
 
-html body main#contenu-principal #prestation-carte ul {
+html main#contenu-principal #prestation-carte ul {
   list-style: none;
   text-align: center;
 }
 
-html body main#contenu-principal #prestation-carte ul li {
+html main#contenu-principal #prestation-carte ul li {
   font-size: 14px;
   font-family: "Barlow", sans-serif;
 }
 
-html body main#contenu-principal #prestation-carte ul li span {
+html main#contenu-principal #prestation-carte ul li span {
   color: #b08715;
   font-size: 16px;
 }
 
-html body main#contenu-principal #prestation-carte ul li.titre-presta-cart {
+html main#contenu-principal #prestation-carte ul li.titre-presta-cart {
   font-style: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -472,16 +706,16 @@ html body main#contenu-principal #prestation-carte ul li.titre-presta-cart {
   margin-bottom: 1.5px;
 }
 
-html body main#contenu-principal #prestation-carte ul li.titre-presta-cart span {
+html main#contenu-principal #prestation-carte ul li.titre-presta-cart span {
   color: #b08715;
 }
 
-html body main#contenu-principal #photo {
+html main#contenu-principal #photo {
   width: 1440px;
   height: 847px;
 }
 
-html body main#contenu-principal #photo h3 {
+html main#contenu-principal #photo h3 {
   width: 1440px;
   text-align: center;
   font-size: 30px;
@@ -496,7 +730,7 @@ html body main#contenu-principal #photo h3 {
   letter-spacing: 2.7px;
 }
 
-html body main#contenu-principal #photo .photo-temoin {
+html main#contenu-principal #photo .photo-temoin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -510,13 +744,13 @@ html body main#contenu-principal #photo .photo-temoin {
   margin-top: 100px;
 }
 
-html body main#contenu-principal #photo .photo-temoin img {
+html main#contenu-principal #photo .photo-temoin img {
   width: 300px;
   height: 300px;
   margin-bottom: 20px;
 }
 
-html body main#contenu-principal footer {
+html main#contenu-principal footer {
   width: 1440px;
   height: 400px;
   display: -webkit-box;
@@ -536,16 +770,16 @@ html body main#contenu-principal footer {
   text-align: center;
 }
 
-html body main#contenu-principal footer img {
+html main#contenu-principal footer img {
   width: 250px;
   height: auto;
 }
 
-html body main#contenu-principal footer .footer-menu {
+html main#contenu-principal footer .footer-menu {
   width: 570px;
 }
 
-html body main#contenu-principal footer .footer-menu ul {
+html main#contenu-principal footer .footer-menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -562,19 +796,19 @@ html body main#contenu-principal footer .footer-menu ul {
   color: rgba(255, 255, 255, 0.04);
 }
 
-html body main#contenu-principal footer .footer-menu ul li {
+html main#contenu-principal footer .footer-menu ul li {
   list-style: none;
   font-family: "Barlow Condensed", sans-serif;
   text-decoration: none;
 }
 
-html body main#contenu-principal footer .footer-menu ul li:hover {
+html main#contenu-principal footer .footer-menu ul li:hover {
   text-decoration: underline;
   text-underline-offset: 35px;
   text-decoration-thickness: 3px;
 }
 
-html body main#contenu-principal footer .footer-menu ul li a {
+html main#contenu-principal footer .footer-menu ul li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -582,7 +816,7 @@ html body main#contenu-principal footer .footer-menu ul li a {
           text-decoration-color: #b08715;
 }
 
-html body main#contenu-principal footer .footer-menu ul li a span {
+html main#contenu-principal footer .footer-menu ul li a span {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -590,7 +824,7 @@ html body main#contenu-principal footer .footer-menu ul li a span {
   letter-spacing: 2.7px;
 }
 
-html body main#contenu-principal footer .footer-menu .footer-contact-direct {
+html main#contenu-principal footer .footer-menu .footer-contact-direct {
   margin-top: 20px;
   width: 620px;
   display: -webkit-box;
@@ -600,7 +834,7 @@ html body main#contenu-principal footer .footer-menu .footer-contact-direct {
       justify-content: space-around;
 }
 
-html body main#contenu-principal footer .footer-menu .footer-contact-direct a img {
+html main#contenu-principal footer .footer-menu .footer-contact-direct a img {
   width: 46px;
 }
 /*# sourceMappingURL=style.css.map */
