@@ -7,7 +7,7 @@ html body {
   margin: 0;
   padding: 0;
   color: white;
-  width: 1440px;
+  width: 320px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -35,7 +35,7 @@ html header {
   html header {
     min-width: 320px;
     max-width: 480px;
-    background-image: url(./asset/home/cleaning-1837328_1920copiecopie.jpg);
+    background-image: url(../asset/home/cleaning-1837328_1920copiecopie.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -302,9 +302,10 @@ html header #presentation-texte div.contact {
           align-items: center;
   width: 445px;
   margin-top: 34px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  background-color: red;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media all and (min-width: 300px) and (max-width: 375px) {
@@ -496,7 +497,7 @@ html main#contenu-principal #categorie-service-prestation {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 1440px;
-  height: 1350px;
+  height: 1250px;
   background: center/cover no-repeat url(/asset/home/towfiqu-barbhuiya-5m5418Ng6t8-unsplash-ConvertImage.jpg);
 }
 
@@ -545,12 +546,6 @@ html main#contenu-principal #categorie-service-prestation #prix-prestation-categ
     width: 375px;
     height: auto;
   }
-}
-
-html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .attention {
-  width: 1100px;
-  text-align: center;
-  font-family: "Bellefair", serif;
 }
 
 html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation {
@@ -611,7 +606,7 @@ html main#contenu-principal #categorie-service-prestation #prix-prestation-categ
 
 html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .un h4 {
   color: #b08715;
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
 
@@ -623,21 +618,13 @@ html main#contenu-principal #categorie-service-prestation #prix-prestation-categ
   color: #b08715;
 }
 
-html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .img-temp {
-  margin: 0;
-  text-align: center;
-  font-family: "Barlow", sans-serif;
-  color: #b08715;
-}
-
-html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .img-temp img {
-  width: 230px;
+html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive img {
+  width: 200px;
   margin-bottom: 0px;
-  margin: 0;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive .img-temp img {
+  html main#contenu-principal #categorie-service-prestation #prix-prestation-categorie .categorie-prestation .teste-drive img {
     width: 150px;
   }
 }
@@ -767,6 +754,10 @@ html main#contenu-principal footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -775,7 +766,6 @@ html main#contenu-principal footer {
   background-color: #030301;
   border-top: #b08715 1px solid;
   text-align: center;
-  margin-top: 20px;
 }
 
 html main#contenu-principal footer img {
@@ -833,7 +823,7 @@ html main#contenu-principal footer .footer-menu ul li a span {
 }
 
 html main#contenu-principal footer .footer-menu .footer-contact-direct {
-  margin-top: 50px;
+  margin-top: 20px;
   width: 620px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -845,18 +835,4 @@ html main#contenu-principal footer .footer-menu .footer-contact-direct {
 html main#contenu-principal footer .footer-menu .footer-contact-direct a img {
   width: 46px;
 }
-
-html main#contenu-principal footer .plan {
-  font-size: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 32px;
-  text-align: justify;
-  font-family: "Barlow", sans-serif;
-  margin-bottom: 0;
-}
-
-html main#contenu-principal footer .plan span {
-  color: #b08715;
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=responsvie.css.map */
